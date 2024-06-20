@@ -717,6 +717,10 @@ video {
 }
 
 @media (min-width: 0px) {
+  .mobile\:fixed {
+    position: fixed;
+  }
+
   .mobile\:absolute {
     position: absolute;
   }
@@ -733,12 +737,20 @@ video {
     bottom: -50px;
   }
 
+  .mobile\:bottom-\[50px\] {
+    bottom: 50px;
+  }
+
   .mobile\:left-0 {
     left: 0px;
   }
 
   .mobile\:left-5 {
     left: 1.25rem;
+  }
+
+  .mobile\:left-\[50px\] {
+    left: 50px;
   }
 
   .mobile\:right-0 {
@@ -763,6 +775,14 @@ video {
 
   .mobile\:top-4 {
     top: 1rem;
+  }
+
+  .mobile\:bottom-\[30px\] {
+    bottom: 30px;
+  }
+
+  .mobile\:left-\[30px\] {
+    left: 30px;
   }
 
   .mobile\:z-\[19999\] {
@@ -1290,6 +1310,10 @@ video {
     background-color: rgb(255 0 0 / var(--tw-bg-opacity));
   }
 
+  .mobile\:bg-\[\@232323\] {
+    background-color: @232323;
+  }
+
   .mobile\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -1428,6 +1452,11 @@ video {
   .mobile\:text-\[\#ffffff\] {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+
+  .mobile\:text-\[\#bcbec0\] {
+    --tw-text-opacity: 1;
+    color: rgb(188 190 192 / var(--tw-text-opacity));
   }
 
   .mobile\:shadow-lg {
@@ -2197,6 +2226,14 @@ video {
   .desktop\:bg-\[gray\] {
     --tw-bg-opacity: 1;
     background-color: rgb(128 128 128 / var(--tw-bg-opacity));
+  }
+
+  .desktop\:bg-\[blak\] {
+    background-color: blak;
+  }
+
+  .desktop\:bg-\[\#\] {
+    background-color: #;
   }
 
   .desktop\:p-\[15px\] {
